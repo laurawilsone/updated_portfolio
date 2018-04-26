@@ -9,6 +9,7 @@ body {
     color: #777;
     background-size: cover;
     background-image: url("../images/tea.jpeg");
+    background-repeat: no-repeat;
 }
 
 .box {
@@ -62,6 +63,11 @@ nav a {
 
 nav a:first-child {
     border-left: 0 none;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
 }
 
 #main-box {
@@ -166,7 +172,7 @@ footer {
     text-align: center;
     position: absolute;
     bottom: 20px;
-    padding: 15px;
+    padding: 3px;
     width: 100%;
     line-height: 30px;
     margin-bottom: 0;
@@ -175,7 +181,7 @@ footer {
 
 .image {
     width: 200px;
-    height: auto;
+    height: 200px;
     margin-top: 10px;
     float: left;
     margin-right: 25px;
